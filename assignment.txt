@@ -1,0 +1,42 @@
+1) The Open Systems Interconnection model (OSI model) is a conceptual model from the International Organization for Standardization (ISO) that provides a common basis for the coordination of standards development for the purpose of systems interconnection. In the OSI reference model, the communications between a computing system are split into seven different layers: 
+Physical 
+Data Link 
+Network
+Transport 
+Session
+Presentation
+Application.
+
+TThe TCP/IP model was created as an open, vendor-neutral, public networking model. Like the OSI model, it describes general guidelines for designing and implementing computer protocols. 
+It consists of four layers: 
+Network Access,
+Internet 
+Transport
+Application:
+
+
+
+2) The application layer is a Layer 7 application , the top of the Open Systems Interconnection (OSI) communications model. It ensures an application can effectively communicate with other applications on different computer systems and networks.
+
+You type a URL in your browser and press Enter
+Browser looks up IP address for the domain
+Browser initiates TCP connection with the server
+Browser sends the HTTP request to the server
+Server processes request and sends back a response
+Browser renders the content
+
+3) A domain name is the address where Internet users can access your website. A domain name is used for finding and identifying computers on the Internet.
+
+The Domain Name System (DNS) turns domain names into IP addresses, which browsers use to load internet pages. 
+
+4)TCP/IP is a two-layered program: the higher layer (TCP) disassembles message content into small "data packets" that are then transmitted over the Internet to be re-assembled by the receiving computer's TCP back into the message's original form.
+TCP is a connection-oriented protocol, a connection needs to be established before two devices can communicate. TCP uses a process called three-way handshake to negotiate the sequence and acknowledgment fields and start the session. 
+
+
+
+5)
+.The data is broken up into bits of same sized pieces called packets. 
+.A header is added to each packet explaining where the data has come from, where it should end up and where it fits in with the rest of packets. 
+.Each packet is sent from computer to computer until it reaches its destination. Each computer on the way decides where next to send the packet. All packets may not take the same route as the other. 
+.At the destination, the packets are examined. If any packet is missing or damaged then a message is sent asking for the sender to send the message them again. 
+.The packets are now reassembled into their original form.
